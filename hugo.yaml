@@ -1,0 +1,9 @@
+baseURL: "https://example.org/"
+languageCode: "en-us"
+title: "Swiper TEST"
+
+module:
+  hugoVersion:
+    extended: false
+    min: "0.116.0"
+
