@@ -9,9 +9,11 @@
   </header>
   <main>
     {{ block "main" . }}{{ end }}
+    {{ partial "carousel.html" . }}
   </main>
   <footer>
     {{ partial "footer.html" . }}
   </footer>
+  <script src="js/carousel.js" defer></script>
 </body>
 </html>

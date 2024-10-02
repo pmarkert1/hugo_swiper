@@ -2,9 +2,8 @@
   {{ .Content }}
   {{ range site.RegularPages }}
     <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }} 
+    {{ .Summary }}
   {{ end }}
-  {{ partial "carousel.html" (dict "context" . "items" "3" "height" "30" "unit" "%" "duration" "7000") }}
-  {{ partial "carousel.html" (dict "context" . "items" "3" "height" "30" "unit" "%" "duration" "7000") }}
+  {{ partial "carousel.html" . }}
 {{ end }}
 
