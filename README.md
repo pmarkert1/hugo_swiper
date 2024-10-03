@@ -1,2 +1,2 @@
 ## Hugo Image Swiper
-building a image carousel for hugo
+building a peak a boo carousel for hugo
